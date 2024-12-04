@@ -1,0 +1,154 @@
+
+
+body {
+    color: darkgray;
+}
+/* Estilo para H1 */
+h1 {
+    color: darkgreen !important;
+}
+
+/* Estilo para H2 */
+h2 {
+    color: white;
+    background-color: forestgreen;
+    display: inline-block;
+    padding: 5px; 
+}
+h3 {
+    color: darkgreen;
+    font-size: 25px;
+}
+
+/* Estilo para el texto general */
+
+.courses-box {
+    display: block;
+    padding: 15px 20px;
+    background-color: #e0f7fa;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #004d40;
+    margin: 20px auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.courses-box:hover {
+    background-color: #b2ebf2;
+}
+/* Contenedor general para cada curso */
+.course-item {
+    margin-bottom: 20px; 
+}
+
+/* Estilo para la descripción */
+.description {
+    margin-top: 10px; 
+    font-size: 20px;
+    color: #1a1c2c; 
+    line-height: 1.5; 
+}
+
+
+
+/* Estilo para el título principal */
+.titulo {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+/* Estilo para el subtítulo */
+.subtitulo {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* Estilo para el formulario */
+.formulario {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+.input, .textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.textarea {
+    height: 100px;
+}
+
+/* Estilo para los botones */
+.btn {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2ecc71;
+}
+
+/* Estilo para los cursos */
+.lista-cursos {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.curso-item {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.curso-nombre {
+    font-size: 20px;
+    color: #16a085;
+}
+
+.descripcion-curso {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.btn-editar, .btn-eliminar {
+    background-color: #2980b9;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-editar:hover, .btn-eliminar:hover {
+    background-color: #3498db;
+}
+
+.btn-eliminar {
+    background-color: #e74c3c;
+}
+
+.btn-eliminar:hover {
+    background-color: #c0392b;
+}
+

@@ -1,0 +1,28 @@
+Crear la base de datos
+CREATE DATABASE cursos_db;
+
+Escoger la base de datos
+USE cursos_db;
+
+Crear la tabla de cursos
+CREATE TABLE cursos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    descripcion TEXT NOT NULL,
+    duracion VARCHAR(50) NOT NULL
+);
+
+Crear tabla inscripciones
+CREATE TABLE inscripciones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    curso_id INT,
+    nombre VARCHAR(255) NOT NULL,
+    celular VARCHAR(20) NOT NULL,
+    correo VARCHAR(255) NOT NULL,
+    FOREIGN KEY (curso_id) REFERENCES cursos(id) ON DELETE CASCADE
+);
+
+
+
+
+
